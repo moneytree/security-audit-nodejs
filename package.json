@@ -1,0 +1,30 @@
+{
+  "name": "security-audit-nodejs",
+  "version": "0.1.0",
+  "description": "A collection of security tests for your Node.js project",
+  "bin": {
+    "security-audit-nodejs": "./bin/audit.js"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "node",
+    "security"
+  ],
+  "author": "Ron Korving <rkorving@moneytree.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.3.2",
+    "depcheck": "0.6.9",
+    "is-node-maintained": "1.0.0",
+    "minimist": "1.2.0",
+    "nsp": "3.2.1",
+    "resolve-bin": "0.4.0",
+    "retire": "1.6.0",
+    "wanted-node-version": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1"
+  }
+}
