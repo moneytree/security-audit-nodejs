@@ -6,11 +6,16 @@
     "security-audit-nodejs": "./bin/audit.js"
   },
   "scripts": {
+    "precommit": "npm run test",
     "test": "eslint ."
   },
   "keywords": [
     "node",
-    "security"
+    "security",
+    "audit",
+    "nsp",
+    "retire",
+    "retirejs"
   ],
   "author": "Ron Korving <rkorving@moneytree.jp>",
   "license": "MIT",
@@ -25,6 +30,7 @@
     "wanted-node-version": "1.0.1"
   },
   "devDependencies": {
-    "eslint": "4.19.1"
+    "eslint": "4.19.1",
+    "husky": "0.14.3"
   }
 }
