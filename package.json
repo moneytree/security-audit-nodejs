@@ -1,6 +1,6 @@
 {
   "name": "security-audit-nodejs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A collection of security tests for your Node.js project",
   "bin": {
     "security-audit-nodejs": "./bin/audit.js"
