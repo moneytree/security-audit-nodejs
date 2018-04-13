@@ -44,7 +44,8 @@ const ignore = readIgnoreFile(cwd);
 (async () => {
 	const warnings = new Warnings({
 		ignore,
-		severity: argv.severity || 'low'
+		severity: argv.severity || 'low',
+		cwd
 	});
 
 	const total = checks.length;
