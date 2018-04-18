@@ -21,7 +21,7 @@
   "repository": "github:moneytree/security-audit-nodejs",
   "license": "MIT",
   "dependencies": {
-    "chalk": "2.3.2",
+    "chalk": "2.4.0",
     "depcheck": "0.6.9",
     "is-node-maintained": "1.0.0",
     "minimist": "1.2.0",

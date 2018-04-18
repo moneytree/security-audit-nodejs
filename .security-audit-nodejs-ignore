@@ -1,0 +1,3 @@
+depcheck:nsp@3.2.1       # we run NSP through child_process (so no require calls occur)
+depcheck:retire@1.6.0    # we run Retire through child_process (so no require calls occur)
+depcheck:husky@0.14.3    # husky has no API
