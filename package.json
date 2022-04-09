@@ -24,7 +24,7 @@
     "chalk": "2.4.0",
     "depcheck": "0.6.9",
     "is-node-maintained": "1.0.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.6",
     "nsp": "3.2.1",
     "resolve-bin": "0.4.0",
     "retire": "1.6.0",
